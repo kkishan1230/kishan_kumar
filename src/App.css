@@ -20,21 +20,22 @@ img {
 .container-1440 {
   max-width: 1440px;
   margin-inline: auto;
+  border-inline: 1px dotted rgba(250, 250, 250, 1);
+  border-width: 0 3px;
 }
 
 @media (max-width: 1600px) {
   .container-1440 {
     max-width: 1366px;
     margin-inline: auto;
-    padding-inline: 15px;
+    padding-inline: 50px;
   }
 }
 @media (max-width: 1440px) {
   .container-1440 {
     max-width: 1200px;
     margin-inline: auto;
-    padding-inline: 15px;
-    padding-inline: 15px;
+    padding-inline: 50px;
   }
 }
 
@@ -72,7 +73,27 @@ img {
 }
 
 .slick-slider {
-  width: 500px;
+  width: 700px;
   margin-inline: auto;
   margin-top: 50px;
+  display: flex !important;
+  align-items: center;
+  gap: 50px;
+}
+
+.carousel-img {
+  border-radius: 20px;
+  height: 360px;
+}
+.carousel-heading {
+  font-size: 24px;
+  max-width: 600px;
+  margin-inline: auto;
+  margin-bottom: 20px;
+}
+
+.arrows {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
 }

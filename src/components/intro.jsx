@@ -23,8 +23,8 @@ const Intro = () => {
           ReactJs and NextJs.
         </p>
       </div>
-      <div className="w-[50%]">
-        <div className="w-[50%] mx-auto opacity-80">
+      <div className="w-[50%] flex justify-end">
+        <div className="w-[50%] opacity-80">
           <img className="rounded-full" src={pro_img} alt="profile_picture" />
           <div className="social flex justify-between items-center mt-5">
             <div>
