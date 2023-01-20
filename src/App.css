@@ -22,13 +22,13 @@ img {
   margin-inline: auto;
   border-inline: 1px dotted rgba(250, 250, 250, 1);
   border-width: 0 3px;
+  padding-inline: 50px;
 }
 
 @media (max-width: 1600px) {
   .container-1440 {
     max-width: 1366px;
     margin-inline: auto;
-    padding-inline: 50px;
   }
 }
 @media (max-width: 1440px) {
